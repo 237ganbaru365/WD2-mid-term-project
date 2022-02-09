@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -15,4 +20,12 @@ p {
 img {
   max-width: 100%;
   border-style: none;
+}
+
+h3 {
+  font-family: Jura, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: 1.125rem;
+  margin-bottom: 0.8rem;
 }

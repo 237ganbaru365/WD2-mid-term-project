@@ -6,12 +6,10 @@ import ProductList from "./ProductList";
 
 const Products = (props) => {
   return (
-    <div>
-      <main>
-        <ProductFilter />
-        <ProductList />
-      </main>
-    </div>
+    <main>
+      <ProductFilter />
+      <ProductList items={props.items} />
+    </main>
   );
 };
 

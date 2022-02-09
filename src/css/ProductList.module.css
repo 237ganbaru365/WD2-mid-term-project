@@ -1,0 +1,31 @@
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+  padding: 1rem;
+}
+
+.product-grid:after,
+.product-grid:before {
+  content: " ";
+  display: table;
+}
+
+.product-item {
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.5rem;
+  width: 49.89%;
+}
+
+@media (min-width: 30em) {
+  .product-grid {
+    padding-bottom: 8rem;
+  }
+}
