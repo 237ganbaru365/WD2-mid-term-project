@@ -1,31 +1,15 @@
-.product-grid {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 100%;
+section {
   padding: 1rem;
 }
 
-.product-grid:after,
-.product-grid:before {
-  content: " ";
-  display: table;
-}
-
-.product-item {
-  text-align: center;
-  text-decoration: none;
-  position: relative;
+.product-grid {
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 0.5rem;
-  width: 49.89%;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 @media (min-width: 30em) {
-  .product-grid {
+  section {
     padding-bottom: 8rem;
   }
 }

@@ -1,0 +1,15 @@
+.wrapper {
+  position: relative;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  border-radius: 0.25rem;
+}
+
+@media (min-width: 60em) {
+  .wrapper {
+    max-width: 75rem;
+    margin-top: 10vh;
+  }
+}
