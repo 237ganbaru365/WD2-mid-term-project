@@ -1,7 +1,7 @@
 import CartItem from "./CartItem";
 
 //Styles
-import classes from "../../css/Cart.module.css";
+// import classes from "../../css/Cart.module.css";
 
 const Cart = ({ cartItems, addToCart, removeFromCart }) => {
   const calculateTotal = (item) =>

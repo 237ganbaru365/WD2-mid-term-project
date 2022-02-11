@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 //Compornents
 import ProductFilter from "./ProductFilter";
@@ -8,10 +8,6 @@ import ProductList from "./ProductList";
 import classes from "../../css/Products.module.css";
 
 const Products = (props) => {
-  const [isFiltered, setIsFilterd] = useState();
-
-  const isFilteredHandler = () => {};
-
   return (
     <main className={classes["wrapper"]}>
       <ProductFilter items={props.items} />
