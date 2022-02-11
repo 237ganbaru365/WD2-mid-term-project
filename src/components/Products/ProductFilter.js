@@ -11,12 +11,12 @@ const ProductFilter = (props) => {
     <div className={classes["filter"]}>
       <ul className={classes["filter-field"]}>
         <li className={classes["filter-item"]}>
-          <Button>all</Button>
+          <Button filteredHandler={props.filteredHandler}>all</Button>
         </li>
         {newItems.map((newItem) => {
           return (
             <li className={classes["filter-item"]} key={newItem}>
-              <Button>{newItem}</Button>
+              <Button filteredHandler={props.filteredHandler}>{newItem}</Button>
             </li>
           );
         })}

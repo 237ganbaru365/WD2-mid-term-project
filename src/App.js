@@ -100,6 +100,7 @@ function App() {
   const [cartOpen, setCartOpen] = useState(false);
   //カート内の商品、初期値は空配列
   const [cartItems, setCartItems] = useState([]);
+
   //カートに追加した商品の合計
   const getTotalItems = (items) => {
     items.reduce((ack, item) => ack + item.amount, 0);
